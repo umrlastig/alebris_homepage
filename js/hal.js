@@ -238,7 +238,7 @@ var createPubHTML = function(docs, parent){
   spanElement.appendChild(inputElement);
   // create an a element with the url to hal
   aHALElement = document.createElement('a');
-  aHALElement.setAttribute("href",docs.halId_s);
+  aHALElement.setAttribute("href","https://hal.archives-ouvertes.fr/"+docs.halId_s);
   aHALElement.setAttribute("class","imgLink");
   imgElement = document.createElement('img');
   imgElement.setAttribute("title","HAL");
